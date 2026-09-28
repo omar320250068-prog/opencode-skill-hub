@@ -19,15 +19,30 @@
     "start": "node dist/index.js",
     "build": "tsc -p tsconfig.json",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run typecheck"
   },
   "keywords": [
     "mcp",
     "modelcontextprotocol",
     "opencode",
     "skills",
-    "agents"
+    "agents",
+    "claude",
+    "skill-manager",
+    "agent-config",
+    "github",
+    "stdio"
   ],
+  "author": "Omar Hindawy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omar320250068-prog/opencode-skill-hub.git"
+  },
+  "homepage": "https://github.com/omar320250068-prog/opencode-skill-hub#readme",
+  "bugs": {
+    "url": "https://github.com/omar320250068-prog/opencode-skill-hub/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.30.1",
