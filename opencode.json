@@ -1,0 +1,8 @@
+﻿{
+  "mcp": {
+    "skill-hub": {
+      "command": "node",
+      "args": ["C:/Users/OMAR HINDAWY/opencode-skill-hub/dist/index.js"]
+    }
+  }
+}
